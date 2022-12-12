@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "Ejemplo1",
+  "name": "Ejemplo PWA",
+  "description": "Ejercicio de clase PWA",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/images/logo_96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo_144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/play_store_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "background_color": "#FF884B",
+  "theme_color": "#1565c0",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "shortcuts": [
+    {
+        "name":"Clientes",
+        "short_name":"Clientes",
+        "description":"Esta es la seccion que muestra los clientes.",
+        "url": "/cliente.html",
+        "icons": [
+            {
+                "src": "/images/logo_96x96.png",
+                "sizes": "96x96",
+                "type": "image/png",
+                "purpose": "any maskable"
+              },
+              {
+                "src": "/images/logo_144x144.png",
+                "sizes": "144x144",
+                "type": "image/png",
+                "purpose": "any maskable"
+              },
+              {
+                "src": "/images/logo192x192.png",
+                "sizes": "192x192",
+                "type": "image/png",
+                "purpose": "any maskable"
+              }
+        ]
+    }
+  ],
+  "screenshots": [
+    {
+        "src":"/images/logo192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }
+  ]
+}
